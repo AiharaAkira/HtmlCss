@@ -1,0 +1,29 @@
+img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .mongsoong {
+  
+    position: relative;
+  
+    bottom: 100px;
+  
+    left: 200px;
+  }
+  
+  .btn{
+    position: relative;
+  
+    bottom: 150px;
+  
+    right: 200px;
+  }
+
+  .btn2{
+    position: relative;
+  
+    bottom: 200px;
+  
+    left: 100px;
+  }
