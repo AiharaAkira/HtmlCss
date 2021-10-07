@@ -1,0 +1,46 @@
+a{
+    font-size: 60px;
+   
+    
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: gold;
+}
+
+a, p{
+    background-color: green;
+}
+
+p .a2{
+    font-weight: bold;
+}
+
+input{
+    width: 200px;
+    height: 50px;
+    border-color: hotpink;
+    border-width: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+
+input:focus{
+    background-color: aqua;
+    outline-color: aquamarine;
+    width: 230px;
+    height: 60px;
+}
+
+body{
+    background-image: url("../2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+    
+}

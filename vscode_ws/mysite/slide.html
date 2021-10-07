@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- 라이브러리 사용 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script>
+    $(document).ready(function(){
+        $('.bxslider').bxSlider({
+            mode: 'fade',
+            auto: true,
+            autoControls: false,
+            stopAutoOnClick: true,
+            pager: true,
+            slideWidth: 800,
+            speed:100,
+            
+          });
+    });
+  </script>
+    
+</head>
+
+<body>
+    <table  ; id="siteTb1">
+        <tr>
+            <td id="siteTitle"><a href="index.html">웹사이트 제목</a></td>
+        </tr>
+        <tr >
+            <td>
+                <table  id="siteMenuTb1">
+                    <tr>
+                        <td><a class="menuClass" href="slide.html">슬라이드</a></td>
+                        <td><a class="menuClass" href="join.html">가입</a></td>
+                        <td><a class="menuClass" href="menu1.html">메뉴3</a></td>
+                        <td><a class="menuClass" href="https://www.naver.com" target="_blank">네이버로</a></td>
+                    </tr>
+                </table>
+            </td>
+
+
+        </tr>
+        
+    </table>
+    <table  id="contentTb1">
+        <tr>
+            <td id="slideTd">
+
+                <div class="bxslider">
+                    <div><img src="../2.jpg"></div>
+                    <div><img src="../html/1.jpg"></div>
+                    <div><img src="../html/3.png"></div>
+                  </div>
+
+            </td> 
+        </tr>
+    </table>
+    
+</body>
+
+
+</html>

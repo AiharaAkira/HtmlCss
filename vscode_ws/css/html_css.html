@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+
+
+<body>
+    <h2>HTML : 뼈대</h2>
+    <h2>css : 디자인</h2>
+    <h3>java<span id="sc">scipt</span> : 이벤트</h2>
+
+        <h1 class="keke">css도 금방 끝나요 </h2>
+            <h1 class="keke">곧 점심이니까</h2>
+                <h1 id="hehe"><span id="power">힘</span>내세요.</h2>
+                    <h1>근데<h6>어렵진 않죠?</h6></h1>
+
+<hr>
+저 위에서 힘이라는 글자만 50pt에 빨강색으로
+
+                    <!-- 
+         CSS(Cascading Style Sheet)
+        html의 DOM객체에 디자인을 입힐 수 있는 언어
+
+         선택자{
+             속성명:값,
+             속성명:값
+         }
+
+         -기본형
+         태그명: 그거다
+         #id : id가 그거인 객체
+         .class : class가 그거인 객체'들'
+
+         -상태형
+         기본형:상태
+
+         -조합형
+      -->
+
+      <p>곧 점심이네요 ㅎㅎ</p>
+
+</body>
+
+<style>
+    h2 {
+        color: blueviolet;
+    }
+
+    h3 {
+        color: blue;
+        font-size: 30pt;
+    }
+
+    h1 {
+        color: teal;
+    }
+
+    .keke {
+        color: aquamarine;
+    }
+
+    #hehe {
+        color: cornflowerblue;
+    }
+
+    #power {
+        font-size: 50pt;
+        color: red;
+    }
+    
+    #sc {
+        background-color: rgb(139, 106, 201);
+    }
+    P{
+        transition: font-size 1s ease-in;
+    }
+
+    p:hover{
+        color: royalblue;
+    }
+
+    p:active{
+        font-size: 40pt;
+    }
+
+    h1+h6{
+        font-size: 30pt;
+    }
+
+</style>
+</html>
