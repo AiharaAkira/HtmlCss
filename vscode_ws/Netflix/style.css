@@ -1,0 +1,205 @@
+
+body{
+    background-color: black;
+   color: white;
+   margin: 0;
+   
+}
+
+#loginBtn{
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    color: white;
+    background-color: red;
+    border: 0;
+    margin-left: 5px;
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#header{
+    color: white;
+    position: relative;
+    
+}
+
+#header::before{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/9b3267c9-5086-4550-92f1-eddc22a1f78e/6468e28d-11a0-4ee9-a180-d2dd2190246a/KR-ko-20211004-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    opacity: 0.5;
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+#title{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: red;
+    font-weight: 800;
+    padding: 20px 56px;
+    font-size: 36px;
+}
+
+#lan{
+    padding-left: 950px;
+    
+}
+
+#lan select{
+    width: 100px;
+    height: 40px;
+    color: aliceblue;
+    background-color: #303030;
+}
+
+#login{
+    
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+
+
+.login button{
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    color: white;
+    background-color: red;
+    border: 0;
+    
+}
+
+.login tr td p{
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+h1{
+  
+  font-size: 45px;  
+  margin: 0 auto;
+}
+
+.hr{
+    height: 7px;
+    background-color: gray;
+    border: 0px;
+    opacity: 0.5;
+}
+
+.content{
+   
+    margin-left: 15%;
+}
+
+.content tr td p{
+    font-size: 25px;
+}
+
+.qBtn{
+    padding: .8em 2.2em .8em 1.2em;
+    margin-bottom: 1px;
+    font-weight: 400;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    text-align: left;
+    background: #303030;
+}
+
+.qBtn a{
+    font-size: 30px;
+}
+
+#plusBtn1{
+    margin-left: 49%;
+    
+}
+
+#plusBtn2{
+    margin-left: 39%;
+    
+}
+
+#plusBtn3{
+    margin-left: 42%;
+    
+}
+
+#plusBtn4{
+    margin-left: 24%;
+    
+}
+
+#plusBtn5{
+    margin-left: 4%;
+   
+}
+
+#plusBtn6{
+    margin-left: 24%;
+   
+}
+
+#qustion tr td{
+    width: 741px;
+    height: 78px;
+}
+
+#footter{
+    margin: 0 auto;
+    color: grey;
+
+}
+
+#footter a{
+    color: grey;
+    text-decoration: none;
+}
+
+#footter select{
+    width: 100px;
+    height: 40px;
+    color: aliceblue;
+    background-color: #303030;
+}
+
+#qTitle{
+    text-align: center;
+}
+
+#qustion{
+margin: 10px auto;
+}
+
+.login{
+    margin: 30px auto;
+}
+
+.login tr td{
+    padding: 10px;
+    font-size: 20px;
+}
+.login tr td input{
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.startBtn{
+    z-index: 1;
+}
