@@ -27,11 +27,11 @@ let age2 = thisYear - Number(year2);
 
 
 if(age == thisYear){
-    age = "";
+    age = " ";
 }
 
 if(age2 == thisYear){
-    age2 == "";
+    age2 == " ";
 }
 
 
