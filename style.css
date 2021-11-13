@@ -8,6 +8,28 @@ body{
    
 }
 
+@media(max-width: 768px){
+    #title{
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        color: red;
+        font-weight: 800;
+        
+        font-size: 36px;
+        
+    }
+}
+
+@media ( min-width: 768px ) {
+    #title{
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        color: red;
+        font-weight: 800;
+        padding: 20px 40px;
+        font-size: 36px;
+        
+    }
+  }
+
 #result{
     text-align: center;
 }
@@ -66,14 +88,7 @@ a{
 
 
 
-#title{
-    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-    color: red;
-    font-weight: 800;
-    padding: 20px 40px;
-    font-size: 36px;
-    
-}
+
 
 .cTitle{
     font-size: 30px;
