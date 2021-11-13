@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <!-- https://infinityfree.net/ -->
+    <div id="header">
+    <table id="menu" > <tr>
+        
+        <td id="title" width="30%" align="left">NETFLIX</td id="logo">
+        
+            
+            <td id="lan" width="70%" align="right">
+                <select name="language" >
+                    <option value="none">한국어</option>
+                   
+                    <option value="english">영어</option>
+                    <option value="chinese">중국어</option>
+                    <option value="spanish">스페인어</option>
+                  </select>
+            </td>
+        <td ><button id="loginBtn" >로그인</button></td></tr></table>
+            </tr>
+            </table>
+            
+                
+            
+            
+        <!-- 몇 살 인지 확인가능 -->
+        <table class="login">
+            <tr><td colspan="5"><h1>
+                영화, TV 프로그램을 
+            </h1></td></tr>
+            <tr><td colspan="5"><h1>
+                무제한으로.
+            </h1></td></tr>
+            <tr><td colspan="5"><p>
+                다양한 디바이스에서 시청하세요. 언제든 해지하실 수 있습니다.
+            </p></td></tr>
+            <tr><td colspan="5"><p>
+                시청할 준비가 되셨나요? (생년월일 입력시 나이 출력)
+            </p></td></tr>
+            <div id="loginPage">
+            <tr><td colspan="5">아이디&nbsp;&nbsp;&nbsp; <input type="text"  id="input1" class="input"></td></tr>
+            <tr><td colspan="5">비밀번호 <input type="text"  id="input2" class="input"></td></tr>
+            <tr><td colspan="5">출생년도 <input type="number"  id="input3" class="input"></td></tr>
+            <tr><td colspan="5">이메일&nbsp;&nbsp;&nbsp; <input type="text" id="input4" class="input"></td></tr>
+            
+            <tr><td colspan="5"><button class="startBtn"  onclick="call()">시작하기</button></td></tr>
+            </div>
+            <tr id="loginOk"><td id="result1"></td><td id="result2"></td><td id="result3"></td><td id="result4"></td><td id="result5"></td></tr>
+            
+        </table 	>
+    </div>
+    
+    
+    <div id="context">
+        
+        <table class="content">
+            <tr><td><p class="cTitle">TV로 즐기세요.</p><p class="cContent">스마트 TV, PlayStation, Xbox, Chromecast,</p>
+                <p class="cContent">Apple TV, 블루레이 플레이어 등 다양한</p>
+                <p class="cContent">디바이스에서 시청하세요.</p></td> <td><img class="img" src="img/1.png"></td></tr>
+            
+       </table>
+        <hr class="hr">
+        <table class="content"><tr><td><img class="img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt=""></td>
+            <td><p class="cTitle" >즐겨 보는 콘텐츠를 </p>
+                <p class="cTitle"> 저장해 오프라인으로</p>
+                <p class="cTitle">  시청하세요.</p>
+                      <p class="cContent">간편하게 저장하고 빈틈없이 즐겨보세요.</p></td></tr></table>
+        <hr class="hr">
+        <table class="content"><tr><td><p class="cTitle">다양한 디바이스에서 
+            시청하세요.</p>
+            <p class="cContent">각종 영화와 TV 프로그램을 스마트폰, 태블릿, </p>
+                <p class="cContent">노트북, TV에서 무제한으로 스트리밍하세요.</p>
+                    <p class="cContent">추가 요금이 전혀 없습니다.</p>
+        </td><td><img class="img" src="img/2.png" alt=""></td></tr></table>
+        <hr class="hr">
+        <table class="content"><tr><td><img class="img" src="https://occ-0-2391-993.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABTyynLTvOBU46RmBnCIPyjAryrXCZKImpoXdp7Mz54jVGKnBQ1X84bzR-3vtD-RA4uu2b1FjrDgfxE6KElG14WAXW19X.png?r=acf" alt=""></td>
+            <td><p class="cTitle">어린이 전용 프로필을
+                만들어 보세요.</p>
+                <p class="cContent">자기만의 공간에서 좋아하는 캐릭터와 즐기는</p>
+                <p class="cContent">신나는 모험. 자녀에게 이 특별한 경험을</p>
+                <p class="cContent"> 선물하세요. 넷플릭스 회원이라면 무료입니다.</p>
+            </td></tr></table>
+        <hr class="hr">
+        
+        <table id="qustion">
+            <tr><h1 id="qTitle">자주 묻는 질문</h1></tr>
+            <tr><td><button class="qBtn"><a href="">넷플릭스란 무엇인가요?</a><a class="plusBtn">+</a></button></td></tr>
+            <tr><td><button class="qBtn"><a href="">넷플릭스 요금은 얼마인가요?</a><a class="plusBtn">+</a></button></td></tr>
+            <tr><td><button class="qBtn"><a href="">어디에서 시청할 수 있나요?</a><a class="plusBtn">+</a></button></td></tr>
+            <tr><td><button class="qBtn"><a href="">멤버십을 해지하려면 어떻게 하나요?</a><a class="plusBtn">+</a></button></td></tr>
+            <tr><td><button class="qBtn"><a href="">넷플릭스에서 어떤 콘텐츠를 시청할 수 있나요?</a><a class="plusBtn">+</a></button></td></tr>
+            <tr><td><button class="qBtn"><a href="">아이들이 넷플릭스를 봐도 좋을까요?</a><a class="plusBtn">+</a></button></td></tr>
+           
+         
+        </table>
+
+      
+
+        <hr class="hr">
+        <table id="footter">
+            <tr>
+                <td colspan="5">
+                    <p>
+                        질문이 있으신가요? 문의 전화:  080-001-9587
+
+                    </p>
+                </td>
+            </tr>
+            
+            <tr ><td ><a href="">자주 묻는 질문</a></td><td ><a href="">고객센터</a></td><td><a href="">계정</a></td><td><a href="">미디어 센터</a></td></tr>
+            <tr ><td><a href="">투자정보(IR)</a></td><td><a href="">입사 정보</a></td><td><a href="">넷플릭스 지원 디바이스</a></td><td><a href="">이용 약관</a></td></tr>
+            <tr ><td><a href="">개인정보</a></td><td><a href="">쿠키 설정</a></td><td><a href="">회사정보</a></td><td><a href="">문의하기</a></td></tr>
+            <tr ><td><a href="">속도 테스트</a></td><td><a href="">법적고지</a></td><td colspan="2"><a href="">오직 넷플릭스에서</a></td></tr>
+            <tr><td colspan="5"><select name="language" >
+                <option value="none">한국어</option>
+               
+                <option value="english">영어</option>
+                <option value="chinese">중국어</option>
+                <option value="spanish">스페인어</option>
+              </select></td></tr>
+            <tr><td colspan="5"><p>
+                넷플릭스 대한민국
+
+넷플릭스서비시스코리아 유한회사 통신판매업신고번호: 제2018-서울종로-0426호 전화번호: 080-001-9587
+대표: 레지널드 숀 톰프슨
+이메일 주소: korea@netflix.com
+주소: 대한민국 서울특별시 종로구 우정국로 26, 센트로폴리스 A동 20층 우편번호 03161
+사업자등록번호: 165-87-00119
+클라우드 호스팅: Amazon Web Services Inc.
+공정거래위원회 웹사이트
+            </p></td></tr>
+        </table>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
