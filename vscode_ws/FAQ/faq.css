@@ -1,0 +1,16 @@
+.faq_menu a{cursor:pointer;}
+.faq_menu .faq_hide{display:none;}
+.faq_ul, .faq_hide{
+    list-style: none;
+}
+
+#faq_box{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.faq_hide{
+    border: 1px solid black;
+    width: 80%;
+    height: 70px;
+}
