@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.faq_answer {
+
+    
+    list-style: none;
+
+    background-color: aqua;
+
+}
+
+.faq_question {
+    
+    background-color: aquamarine;
+    list-style: none;
+}
