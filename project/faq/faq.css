@@ -1,7 +1,4 @@
-body{
-    margin: 0;
-    font-family: 'Gothic A1', sans-serif;
-}
+
 
 .faq_answer {
 
@@ -9,11 +6,12 @@ body{
     list-style: none;
     display: none;
     background-color: aqua;
+    font-size: 10px;
 
 }
 
 .faq_question {
-    
+    font-size: 10px;
     background-color: aquamarine;
     list-style: none;
 }
